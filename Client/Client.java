@@ -21,7 +21,7 @@ class Messager {
 }
 
 public class Client implements Runnable {
-    private static final String STR_CLIENT_CLOSE = "Client closed because server closed";
+    private static final String STR_CLIENT_CLOSE = "Client closed";
 
     private Socket client;
     private Messager messagerPrint;
